@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<title>LeoFalcone.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#Finance" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-bar-chart w3-xxlarge"></i>
+    <p>FINANCE</p>
+  <a href="#Dance" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-male w3-xxlarge"></i>
+    <p>DANCE</p>
+  </a>
+  <a href="#Games" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-gamepad w3-xxlarge"></i>
+    <p>GAMES</p>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#Finance" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#Dance" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    <a href="#Games" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+<!-- Avatar image in top left corner -->
+
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span>Leo Falcone<span style="color:lime">.</h1>
+    <p><span style='color:#F1C40F'>Financial</span> Analyst, <span style="color:#FD5F00">Python</span> Developer, and Part-Time <span style="color:magenta">Dancer</span><span style="color:lime">.</p>
+    <img src="https://ak.picdn.net/shutterstock/videos/33700627/thumb/1.jpg" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 style="color:lime">Introduction</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="color:white">Hi, my name is Leo Falcone. I've written this website as a sample of my abilities in different programming languages. This site is writen in <span style="color:#FD5F00">Python</span>, using the django framwork. The applications you will see below are written in <span style="color:#FD5F00">Python</span> as well, but the formatting of this page is done in CSS/<span style="color:red">HTML</span>. Part of the CSS is from a template found on w3.com. This is the first website I have ever written, and I am open to critiques. Leave a comment in the contact section below if you have any advise. Thanks! 
+    </p>
+    <h3 style="color:aqua">My Skills</h3>
+    <p class="w3-wide">Investment Research/Analysis</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Data Science</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Latin <span style="color:magenta">Dancing</span></p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div><br>
+    
+  <!-- Finance Section -->
+  <div class="w3-padding-64 w3-content" id="Finance">
+    <h2 style="color:#F1C40F">Finance</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="color:white">I am currently working in the Private Equity/Credit department of Morgan Stanley Investment Management. My team faces internally, servicing the portfolio managers as well as legal/compliance. I am also part of a taskforce that is building out a new software for all Morgan Stanley Investment funds to use internationally. <br>
+       Before moving to NYC, I worked for just over a year at an investment manager called Heritage Investors Management Corp in Bethesda, MD. My responsibilities at included investment research, as well as operations and automation in <span style="color:green">VBA</span>. <br><br>
+       I am working on an investment thesis for publicly traded sports teams, and how the defining <span style="color:lime">wins</span>/<span style="color:red">losses</span> of the season are closeley related to the changes in share price. I hope to upload this to the website as soon as it is finished.
+    </p><br>   
+    <h3 style="color:aqua">Graphing App</h3>
+    <p style="color:white"> Here is a basic stock graphing app I wrote in <span style="color:#FD5F00">Python</span>. The data is pulled throught the yfinance API, organizes with pandas and numpy, and
+    then graphs with matplotlib. <br><br>
+    Enter a ticker below and use the date fields to set a range.</p>
+
+    <form method="POST" style="color: white">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">SUBMIT</button>
+    </form>
+    <p style="color:red"> The graph will pop out in a separate window after a few seconds. </p>
+    <p style="color:magenta">You view see the source code of this app on my <span style="color:green">github</span> page <a href="https://github.com/LeonardoFalcone/StockwithBarVolume">here</a>. </p>
+    </p>
+  </div>
+  <!-- End Finance Section -->
+  </div>
+
+  <!-- Dance Section -->
+  <div class="w3-padding-64 w3-content" id="Dance">
+    <h2 style="color:magenta">Dance</h2>
+  <hr style="width:200px" class="w3-white">
+    <p> I have been taking <span style="color:#FD5F00">salsa</span> and <span style="color:yellow">bachata</span> classes for about 3 years. The video below is my first <span style="color:yellow">bachata</span> performance. This was the 3rd anniversary party of <span style="color:#FD5F00">Salsa</span> in <span style="color:aqua">Queens</span> dance studio, located in Astoria, NY. 
+    </p>
+    <iframe width="750" height="400"
+    src="https://www.youtube.com/embed/v5ghr4UW2b0">
+    </iframe>
+    <p> This performance was January 19, 2020 at the Doha Nightclub in Long Island City, NY. Music and Choreo by Cris Moreno.
+  </div>
+  <!-- End Dance Section -->
+  </div>
+
+  <!-- Games Section -->
+  <div class="w3-padding-64 w3-content" id="Games">
+    <h2 style="color:lime">Games</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-section">
+        <p>I have written a simple two player game. To write this I took the existing code for "pong" in <span style="color:#FD5F00">pygame</span> and created goal areas as well as allowed the paddles to move left and right. I also formatted the area to look like a soccer field.
+        </p>
+        <p> Player one will use the arrow keys, and player 2 will use A/W/S/D. First to 10 points <span style="color:green">wins!
+
+    <form method="POST">
+    {% csrf_token %}
+    <button type="submit" name="run_script">Play PongSoccer!</button>
+    </form>
+
+<p style="color:red"> The game will pop out in a separate window after a few seconds. </p>
+    <p style="color:magenta">You view see the source code of this app on my <span style="color:green">github</span> page <a href="https://github.com/LeonardoFalcone/PongSoccer">here</a>. </p>
+  </div>
+  <!-- End Games Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 style="color:lime">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p style="color:white"><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <span style="color:aqua">Queens</span>, NY</p>
+      <p style="color:white"><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 301-760-6025</p>
+      <p style="color:white"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> <span style="color:orange">Email</span>: LeonardoAFalcone@gmail.com</p>
+    </div><br>
+    <p style="color:white">Let's get in touch. Send me an <span style="color:orange">Email</span>!</p>
+
+
+</form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey">
+    <a href="https://www.linkedin.com/in/leonardo-falcone-120011116/"><i class="fa fa-linkedin fa-4x w3-hover-opacity"></i></a>
+    <p style="color:magenta" "font-size:14px">You can view the source code of this website on my <span style="color:green">github</span> page <a href=https://github.com/LeonardoFalcone>here</a>. </p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
